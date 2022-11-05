@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Hackaton;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,6 +31,20 @@ namespace Ejemplo_menu
                     switch (opcion)
                     {
                         case 1:
+                            Console.WriteLine("Problema 1: Scramble");
+                            Console.WriteLine("Ingresa la primera Frase:");
+                            string frase1 = Console.ReadLine();
+                            Console.WriteLine("Ingresa la segunda Frase:");
+                            string frase2 = Console.ReadLine();
+                            var scrable = new Scramble();
+                            if (scrable.CompareScramble(frase1, frase2))
+                            {
+                                Console.WriteLine("Es Scramble");
+                            }
+                            else
+                            {
+                                Console.WriteLine("No es Scramble");
+                            }
 
                             break;
 
