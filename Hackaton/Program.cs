@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 namespace Ejemplo_menu
 {
+    //carlos pablo Herrera Escobar 1082417
+    //Edwin Leonardo Hilario Gómez 1298816
     class Program
     {
         static void Main(string[] args)
@@ -21,8 +23,8 @@ namespace Ejemplo_menu
                 {
 
                     Console.WriteLine("1. Problema 1: Scramble");
-                    Console.WriteLine("2. Ejercicio 2");
-                    Console.WriteLine("3. Ejercicio 3");
+                    Console.WriteLine("2. Problema 2: ");
+                    Console.WriteLine("3. Problema 3: Subsecuente");
                     Console.WriteLine("4. Ejercicio 4");
                     Console.WriteLine("5. Salir");
                     Console.WriteLine("Elige una de las opciones");
